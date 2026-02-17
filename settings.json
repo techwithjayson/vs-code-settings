@@ -1,0 +1,101 @@
+{
+  /* =========================
+     WORKBENCH / UI
+  ========================== */
+
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.settings.editor": "json",
+  "breadcrumbs.enabled": true,
+
+  /* =========================
+     EXPLORER
+  ========================== */
+
+  "explorer.openEditors.visible": 1,
+  "explorer.confirmDelete": false,
+
+  /* =========================
+     EDITOR
+  ========================== */
+
+  "editor.minimap.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  /* =========================
+     JAVASCRIPT
+  ========================== */
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  /* =========================
+     ESLINT + PRETTIER
+  ========================== */
+
+  "prettier.requireConfig": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "ejs"
+  ],
+
+  /* =========================
+     EMMET
+  ========================== */
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "typescript": "typescriptreact",
+    "html": "html",
+    "css": "css",
+    "javascript": "javascript",
+    "ejs": "html"
+  },
+
+  "files.associations": {
+    "*.ejs": "html"
+  },
+
+  /* =========================
+     DIFF / GIT
+  ========================== */
+
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  /* =========================
+     LIVE SERVER
+  ========================== */
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  /* =========================
+     AI TOOLS
+  ========================== */
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.viewSessions.enabled": false,
+
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+  "claudeCode.preferredLocation": "panel",
+
+  /* =========================
+     MISC
+  ========================== */
+
+  "json.schemas": []
+}
