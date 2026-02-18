@@ -24,6 +24,10 @@ Additional recommended extensions
 - **GitHub Actions (CI)**: workflows editing and validation helpers.
 - **Dev Containers**: develop inside containers using `.devcontainer` setups.
 - **Remote - Containers / Container Tools**: container management and tooling integration.
+- **MobileView (HTML/CSS live preview)**: for mobile preview of HTML/CSS changes.
+- **Code Spell Checker**: basic spell checking in code and markdown.
+- **Powershell Extension Pack**: if you work with PowerShell, this pack includes the main extensions for that.
+- **Prettier ESLint**: if you want a combined extension that runs Prettier and ESLint together.
 
 Install extensions via the Extensions view (`Ctrl+Shift+X`) by searching each name and clicking **Install**.
 
