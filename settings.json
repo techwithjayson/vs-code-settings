@@ -6,6 +6,7 @@
   "workbench.colorTheme": "Night Owl",
   "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",
+  "workbench.panel.defaultLocation": "bottom",
   "workbench.settings.editor": "json",
   "breadcrumbs.enabled": true,
 
@@ -28,7 +29,7 @@
   },
 
   /* =========================
-     JAVASCRIPT
+     JAVASCRIPT / TYPESCRIPT
   ========================== */
 
   "javascript.updateImportsOnFileMove.enabled": "always",
